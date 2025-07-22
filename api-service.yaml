@@ -9,4 +9,3 @@ spec:
     - protocol: TCP
       port: 80 # The port exposed on the service (optional but usually needed)
       targetPort: 8080 # The port your app is listening on inside the container
-      nodePort: 30080 # This is the fixed port on the node
